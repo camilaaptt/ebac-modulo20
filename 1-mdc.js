@@ -13,3 +13,5 @@ function calculaMDC(a, b) {
 }
 var resultado = calculaMDC(12, 9);
 console.log(`O MDC é: ${resultado}`);
+
+module.exports = { resultado }

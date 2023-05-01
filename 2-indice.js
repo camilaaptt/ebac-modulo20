@@ -29,3 +29,5 @@ if (existeRepetidos) {
     console.log(`O índice do maior valor ${maior} é: ${indexMaior}`);
     console.log(`O índice do menor valor ${menor} é: ${indexMenor}`);
 }
+
+module.exports = { indexMaior, indexMenor, existeRepetidos }
